@@ -1,0 +1,1430 @@
+[
+  {
+    "tool": "ros_status",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      }
+    ],
+    "prompt": "ros_status \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "ros_status",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      }
+    ],
+    "prompt": "ros_status \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "ros_status",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      }
+    ],
+    "prompt": "ros_status \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "ros_status",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      }
+    ],
+    "prompt": "ros_status \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "ros_status",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      }
+    ],
+    "prompt": "ros_status \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "ros_status",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      }
+    ],
+    "prompt": "ros_status \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "ros_status",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      }
+    ],
+    "prompt": "ros_status \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_list",
+    "steps": [
+      {
+        "action": "topic_list",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_list \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_list",
+    "steps": [
+      {
+        "action": "topic_list",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_list \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_list",
+    "steps": [
+      {
+        "action": "topic_list",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_list \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_list",
+    "steps": [
+      {
+        "action": "topic_list",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_list \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_list",
+    "steps": [
+      {
+        "action": "topic_list",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_list \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_list",
+    "steps": [
+      {
+        "action": "topic_list",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_list \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_list",
+    "steps": [
+      {
+        "action": "topic_list",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_list \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_echo",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_echo \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_echo",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_echo \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_echo",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_echo \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_echo",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_echo \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_echo",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_echo \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_echo",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_echo \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_echo",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_echo \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_pub",
+    "steps": [
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_pub \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_pub",
+    "steps": [
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_pub \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_pub",
+    "steps": [
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_pub \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_pub",
+    "steps": [
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_pub \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_pub",
+    "steps": [
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_pub \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_pub",
+    "steps": [
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_pub \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "topic_pub",
+    "steps": [
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "topic_pub \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_list",
+    "steps": [
+      {
+        "action": "service_list",
+        "params": {}
+      }
+    ],
+    "prompt": "service_list \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_list",
+    "steps": [
+      {
+        "action": "service_list",
+        "params": {}
+      }
+    ],
+    "prompt": "service_list \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_list",
+    "steps": [
+      {
+        "action": "service_list",
+        "params": {}
+      }
+    ],
+    "prompt": "service_list \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_list",
+    "steps": [
+      {
+        "action": "service_list",
+        "params": {}
+      }
+    ],
+    "prompt": "service_list \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_list",
+    "steps": [
+      {
+        "action": "service_list",
+        "params": {}
+      }
+    ],
+    "prompt": "service_list \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_list",
+    "steps": [
+      {
+        "action": "service_list",
+        "params": {}
+      }
+    ],
+    "prompt": "service_list \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_list",
+    "steps": [
+      {
+        "action": "service_list",
+        "params": {}
+      }
+    ],
+    "prompt": "service_list \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_call",
+    "steps": [
+      {
+        "action": "service_call",
+        "params": {}
+      }
+    ],
+    "prompt": "service_call \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_call",
+    "steps": [
+      {
+        "action": "service_call",
+        "params": {}
+      }
+    ],
+    "prompt": "service_call \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_call",
+    "steps": [
+      {
+        "action": "service_call",
+        "params": {}
+      }
+    ],
+    "prompt": "service_call \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_call",
+    "steps": [
+      {
+        "action": "service_call",
+        "params": {}
+      }
+    ],
+    "prompt": "service_call \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_call",
+    "steps": [
+      {
+        "action": "service_call",
+        "params": {}
+      }
+    ],
+    "prompt": "service_call \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_call",
+    "steps": [
+      {
+        "action": "service_call",
+        "params": {}
+      }
+    ],
+    "prompt": "service_call \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "service_call",
+    "steps": [
+      {
+        "action": "service_call",
+        "params": {}
+      }
+    ],
+    "prompt": "service_call \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "node_list",
+    "steps": [
+      {
+        "action": "node_list",
+        "params": {}
+      }
+    ],
+    "prompt": "node_list \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "node_list",
+    "steps": [
+      {
+        "action": "node_list",
+        "params": {}
+      }
+    ],
+    "prompt": "node_list \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "node_list",
+    "steps": [
+      {
+        "action": "node_list",
+        "params": {}
+      }
+    ],
+    "prompt": "node_list \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "node_list",
+    "steps": [
+      {
+        "action": "node_list",
+        "params": {}
+      }
+    ],
+    "prompt": "node_list \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "node_list",
+    "steps": [
+      {
+        "action": "node_list",
+        "params": {}
+      }
+    ],
+    "prompt": "node_list \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "node_list",
+    "steps": [
+      {
+        "action": "node_list",
+        "params": {}
+      }
+    ],
+    "prompt": "node_list \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "node_list",
+    "steps": [
+      {
+        "action": "node_list",
+        "params": {}
+      }
+    ],
+    "prompt": "node_list \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_get",
+    "steps": [
+      {
+        "action": "param_get",
+        "params": {}
+      }
+    ],
+    "prompt": "param_get \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_get",
+    "steps": [
+      {
+        "action": "param_get",
+        "params": {}
+      }
+    ],
+    "prompt": "param_get \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_get",
+    "steps": [
+      {
+        "action": "param_get",
+        "params": {}
+      }
+    ],
+    "prompt": "param_get \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_get",
+    "steps": [
+      {
+        "action": "param_get",
+        "params": {}
+      }
+    ],
+    "prompt": "param_get \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_get",
+    "steps": [
+      {
+        "action": "param_get",
+        "params": {}
+      }
+    ],
+    "prompt": "param_get \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_get",
+    "steps": [
+      {
+        "action": "param_get",
+        "params": {}
+      }
+    ],
+    "prompt": "param_get \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_get",
+    "steps": [
+      {
+        "action": "param_get",
+        "params": {}
+      }
+    ],
+    "prompt": "param_get \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_set",
+    "steps": [
+      {
+        "action": "param_set",
+        "params": {}
+      }
+    ],
+    "prompt": "param_set \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_set",
+    "steps": [
+      {
+        "action": "param_set",
+        "params": {}
+      }
+    ],
+    "prompt": "param_set \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_set",
+    "steps": [
+      {
+        "action": "param_set",
+        "params": {}
+      }
+    ],
+    "prompt": "param_set \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_set",
+    "steps": [
+      {
+        "action": "param_set",
+        "params": {}
+      }
+    ],
+    "prompt": "param_set \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_set",
+    "steps": [
+      {
+        "action": "param_set",
+        "params": {}
+      }
+    ],
+    "prompt": "param_set \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_set",
+    "steps": [
+      {
+        "action": "param_set",
+        "params": {}
+      }
+    ],
+    "prompt": "param_set \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "param_set",
+    "steps": [
+      {
+        "action": "param_set",
+        "params": {}
+      }
+    ],
+    "prompt": "param_set \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "launch",
+    "steps": [
+      {
+        "action": "launch",
+        "params": {}
+      }
+    ],
+    "prompt": "launch \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "launch",
+    "steps": [
+      {
+        "action": "launch",
+        "params": {}
+      }
+    ],
+    "prompt": "launch \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "launch",
+    "steps": [
+      {
+        "action": "launch",
+        "params": {}
+      }
+    ],
+    "prompt": "launch \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "launch",
+    "steps": [
+      {
+        "action": "launch",
+        "params": {}
+      }
+    ],
+    "prompt": "launch \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "launch",
+    "steps": [
+      {
+        "action": "launch",
+        "params": {}
+      }
+    ],
+    "prompt": "launch \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "launch",
+    "steps": [
+      {
+        "action": "launch",
+        "params": {}
+      }
+    ],
+    "prompt": "launch \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "launch",
+    "steps": [
+      {
+        "action": "launch",
+        "params": {}
+      }
+    ],
+    "prompt": "launch \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "stop_launch",
+    "steps": [
+      {
+        "action": "stop_launch",
+        "params": {}
+      }
+    ],
+    "prompt": "stop_launch \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "stop_launch",
+    "steps": [
+      {
+        "action": "stop_launch",
+        "params": {}
+      }
+    ],
+    "prompt": "stop_launch \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "stop_launch",
+    "steps": [
+      {
+        "action": "stop_launch",
+        "params": {}
+      }
+    ],
+    "prompt": "stop_launch \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "stop_launch",
+    "steps": [
+      {
+        "action": "stop_launch",
+        "params": {}
+      }
+    ],
+    "prompt": "stop_launch \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "stop_launch",
+    "steps": [
+      {
+        "action": "stop_launch",
+        "params": {}
+      }
+    ],
+    "prompt": "stop_launch \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "stop_launch",
+    "steps": [
+      {
+        "action": "stop_launch",
+        "params": {}
+      }
+    ],
+    "prompt": "stop_launch \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "stop_launch",
+    "steps": [
+      {
+        "action": "stop_launch",
+        "params": {}
+      }
+    ],
+    "prompt": "stop_launch \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_record",
+    "steps": [
+      {
+        "action": "bag_record",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_record \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_record",
+    "steps": [
+      {
+        "action": "bag_record",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_record \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_record",
+    "steps": [
+      {
+        "action": "bag_record",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_record \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_record",
+    "steps": [
+      {
+        "action": "bag_record",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_record \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_record",
+    "steps": [
+      {
+        "action": "bag_record",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_record \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_record",
+    "steps": [
+      {
+        "action": "bag_record",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_record \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_record",
+    "steps": [
+      {
+        "action": "bag_record",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_record \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_play",
+    "steps": [
+      {
+        "action": "bag_play",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_play \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_play",
+    "steps": [
+      {
+        "action": "bag_play",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_play \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_play",
+    "steps": [
+      {
+        "action": "bag_play",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_play \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_play",
+    "steps": [
+      {
+        "action": "bag_play",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_play \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_play",
+    "steps": [
+      {
+        "action": "bag_play",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_play \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_play",
+    "steps": [
+      {
+        "action": "bag_play",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_play \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "bag_play",
+    "steps": [
+      {
+        "action": "bag_play",
+        "params": {}
+      }
+    ],
+    "prompt": "bag_play \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "list_jobs",
+    "steps": [
+      {
+        "action": "list_jobs",
+        "params": {}
+      }
+    ],
+    "prompt": "list_jobs \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "list_jobs",
+    "steps": [
+      {
+        "action": "list_jobs",
+        "params": {}
+      }
+    ],
+    "prompt": "list_jobs \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "list_jobs",
+    "steps": [
+      {
+        "action": "list_jobs",
+        "params": {}
+      }
+    ],
+    "prompt": "list_jobs \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "list_jobs",
+    "steps": [
+      {
+        "action": "list_jobs",
+        "params": {}
+      }
+    ],
+    "prompt": "list_jobs \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "list_jobs",
+    "steps": [
+      {
+        "action": "list_jobs",
+        "params": {}
+      }
+    ],
+    "prompt": "list_jobs \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "list_jobs",
+    "steps": [
+      {
+        "action": "list_jobs",
+        "params": {}
+      }
+    ],
+    "prompt": "list_jobs \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "list_jobs",
+    "steps": [
+      {
+        "action": "list_jobs",
+        "params": {}
+      }
+    ],
+    "prompt": "list_jobs \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "agentic_ros_workflow",
+    "steps": [
+      {
+        "action": "agentic_ros_workflow",
+        "params": {}
+      }
+    ],
+    "prompt": "agentic_ros_workflow \u2014 variation 1: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "agentic_ros_workflow",
+    "steps": [
+      {
+        "action": "agentic_ros_workflow",
+        "params": {}
+      }
+    ],
+    "prompt": "agentic_ros_workflow \u2014 variation 2: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "agentic_ros_workflow",
+    "steps": [
+      {
+        "action": "agentic_ros_workflow",
+        "params": {}
+      }
+    ],
+    "prompt": "agentic_ros_workflow \u2014 variation 3: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "agentic_ros_workflow",
+    "steps": [
+      {
+        "action": "agentic_ros_workflow",
+        "params": {}
+      }
+    ],
+    "prompt": "agentic_ros_workflow \u2014 variation 4: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "agentic_ros_workflow",
+    "steps": [
+      {
+        "action": "agentic_ros_workflow",
+        "params": {}
+      }
+    ],
+    "prompt": "agentic_ros_workflow \u2014 variation 5: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "agentic_ros_workflow",
+    "steps": [
+      {
+        "action": "agentic_ros_workflow",
+        "params": {}
+      }
+    ],
+    "prompt": "agentic_ros_workflow \u2014 variation 6: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "agentic_ros_workflow",
+    "steps": [
+      {
+        "action": "agentic_ros_workflow",
+        "params": {}
+      }
+    ],
+    "prompt": "agentic_ros_workflow \u2014 variation 7: Basic usage example",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "workflow",
+    "steps": [
+      {
+        "action": "ros_status",
+        "params": {}
+      },
+      {
+        "action": "topic_echo",
+        "params": {}
+      }
+    ],
+    "prompt": "Multi-step: health check then start simulation",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "workflow",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      },
+      {
+        "action": "service_list",
+        "params": {}
+      },
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "Multi-step: start sim, check state, stop",
+    "expected": {
+      "success": true
+    }
+  },
+  {
+    "tool": "workflow",
+    "steps": [
+      {
+        "action": "topic_echo",
+        "params": {}
+      },
+      {
+        "action": "service_call",
+        "params": {}
+      },
+      {
+        "action": "service_list",
+        "params": {}
+      },
+      {
+        "action": "topic_pub",
+        "params": {}
+      }
+    ],
+    "prompt": "Multi-step: start, apply control, check state, stop",
+    "expected": {
+      "success": true
+    }
+  }
+]
