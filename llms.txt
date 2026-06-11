@@ -1,0 +1,19 @@
+# ros-mcp
+
+ROS 2 CLI wrapper via MCP — introspect topics, services, nodes, and lifecycle.
+
+## Tools
+- ros_status / topic_list / topic_echo / topic_info — topic introspection
+- service_list / service_call / service_type — service management
+- node_list / node_info — node discovery
+- param_get / param_set / param_list — parameter CRUD
+- ros_launch / ros_stop / ros_log / list_jobs — process lifecycle
+
+## Setup
+```powershell
+uv sync
+uv run python -m ros_mcp
+```
+
+## Docs
+- docs/ROS_MCP_ARCHITECTURE.md — CLI wrapper design, subprocess model
