@@ -1,0 +1,20 @@
+{
+  "manifest_version": "0.3",
+  "name": "ros-mcp",
+  "version": "0.1.0",
+  "description": "ROS 2 CLI wrapper via MCP — introspect topics, services, nodes, and lifecycle",
+  "author": { "name": "Sandra Schipal", "url": "https://github.com/sandraschi" },
+  "repository": { "type": "git", "url": "https://github.com/sandraschi/ros-mcp.git" },
+  "homepage": "https://github.com/sandraschi/ros-mcp",
+  "license": "Apache 2.0",
+  "keywords": ["mcp", "model-context-protocol", "fastmcp", "ros", "ros2", "robotics"],
+  "server": {
+    "type": "python",
+    "entry_point": "src/ros_mcp/server.py",
+    "mcp_config": {
+      "command": "python",
+      "args": ["-m", "ros_mcp"],
+      "env": { "PYTHONPATH": "${__dirname}/src", "PYTHONUNBUFFERED": "1" }
+    }
+  }
+}
