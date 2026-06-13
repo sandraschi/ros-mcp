@@ -6,6 +6,7 @@ import Nodes from "./pages/Nodes";
 import Logging from "./pages/Logging";
 import LLM from "./pages/LLM";
 import Settings from "./pages/Settings";
+import Help from "./pages/Help";
 
 const navItems = [
   { to: "/", label: "Dashboard", icon: "\u{1F3E0}" },
@@ -15,6 +16,7 @@ const navItems = [
   { to: "/logging", label: "Logging", icon: "\u{1F4CA}" },
   { to: "/llm", label: "LLM", icon: "\u{1F916}" },
   { to: "/settings", label: "Settings", icon: "\u2699\uFE0F" },
+  { to: "/help", label: "Help", icon: "\u2753" },
 ];
 
 function Sidebar() {
@@ -58,6 +60,7 @@ export default function App() {
             <Route path="/logging" element={<Logging />} />
             <Route path="/llm" element={<LLM />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/help" element={<Help />} />
           </Routes>
         </main>
       </div>
