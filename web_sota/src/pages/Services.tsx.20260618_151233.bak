@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from "react";
-import { API_BASE } from "../lib/api";
 
 export default function Services() {
   const [services, setServices] = useState<string[]>([]);
@@ -10,7 +9,7 @@ export default function Services() {
 
   const fetchServices = useCallback(async () => {
     try {
-      const r = await fetch(API_BASE + "/api/services");
+      const r = await fetch("/api/services");
       if (r.ok) {
         const d = await r.json();
         if (d.services) setServices(d.services);
@@ -27,7 +26,7 @@ export default function Services() {
   const handleCall = async () => {
     setSvcResult("Calling...");
     try {
-      const r = await fetch(API_BASE + "/api/services/call", {
+      const r = await fetch("/api/services/call", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ service_name: svcName, service_type: svcType, values: svcValue }),

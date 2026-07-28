@@ -1,8 +1,9 @@
 name: CI
 on:
   push:
-    tags: ["v*"]
-  workflow_dispatch:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   lint:

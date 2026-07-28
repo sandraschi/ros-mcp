@@ -12,8 +12,9 @@ from __future__ import annotations
 import enum
 import logging
 import time
+from collections.abc import Callable
 from dataclasses import dataclass, field
-from typing import Any, Callable
+from typing import Any
 
 logger = logging.getLogger(__name__)
 
@@ -61,7 +62,12 @@ class RosJob:
     def transition_to(self, new_state: RosState, reason: str = "") -> None:
         valid = self._valid_transitions().get(self.state, set())
         if new_state not in valid and self.state != new_state:
-            logger.warning("Invalid transition %s -> %s for job %s", self.state.value, new_state.value, self.job_id)
+            logger.warning(
+                "Invalid transition %s -> %s for job %s",
+                self.state.value,
+                new_state.value,
+                self.job_id,
+            )
             self.state = RosState.ERROR
             self.error_message = f"Invalid transition: {self.state.value} -> {new_state.value}"
             return
@@ -69,8 +75,13 @@ class RosJob:
         old = self.state
         self.state = new_state
         self.state_changed_at = time.time()
-        logger.info("Job %s: %s -> %s%s", self.job_id, old.value, new_state.value,
-                     f" ({reason})" if reason else "")
+        logger.info(
+            "Job %s: %s -> %s%s",
+            self.job_id,
+            old.value,
+            new_state.value,
+            f" ({reason})" if reason else "",
+        )
 
         for cb in self._on_enter_state.get(new_state, []):
             try:

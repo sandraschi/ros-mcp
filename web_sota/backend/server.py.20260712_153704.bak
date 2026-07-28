@@ -108,7 +108,7 @@ async def set_settings(body: dict):
 
 # Mount MCP HTTP
 mcp_mod = __import__("ros_mcp.server", fromlist=["mcp"])
-app.mount("/mcp", mcp_mod.mcp.http_app(path="/"))
+app.mount("/mcp", mcp_mod.mcp.http_app())
 
 # Serve frontend static files (if dist exists)
 dist = Path(__file__).resolve().parent.parent / "dist"

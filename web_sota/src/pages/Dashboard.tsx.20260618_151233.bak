@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from "react";
-import { API_BASE } from "../lib/api";
 
 interface RosStatus {
   ros_available: boolean;
@@ -17,7 +16,7 @@ export default function Dashboard() {
 
   const fetchStatus = useCallback(async () => {
     try {
-      const r = await fetch(API_BASE + "/api/health");
+      const r = await fetch("/api/health");
       if (r.ok) setStatus(await r.json());
     } catch {}
   }, []);
@@ -31,7 +30,7 @@ export default function Dashboard() {
   const handleAiExecute = async () => {
     setAiResult("Thinking...");
     try {
-      const r = await fetch(API_BASE + "/api/llm/chat", {
+      const r = await fetch("/api/llm/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

@@ -39,6 +39,7 @@ def _ros2_available() -> bool:
 def _rclpy_available() -> bool:
     try:
         import rclpy  # noqa: F401
+
         return True
     except ImportError:
         return False
@@ -57,6 +58,7 @@ def _ros_version() -> str | None:
         pass
     try:
         import rclpy
+
         return getattr(rclpy, "__version__", None) or "unknown"
     except ImportError:
         pass
@@ -101,7 +103,7 @@ def _parse_node_list(output: str) -> list[str]:
 
 
 def _extract_json(text: str) -> dict | None:
-    for m in re.finditer(r'\{[^{}]*\}', text):
+    for m in re.finditer(r"\{[^{}]*\}", text):
         try:
             return json.loads(m.group())
         except json.JSONDecodeError:
@@ -110,7 +112,7 @@ def _extract_json(text: str) -> dict | None:
 
 
 def _extract_json_array(text: str) -> list:
-    for m in re.finditer(r'\[.*?\]', text, re.DOTALL):
+    for m in re.finditer(r"\[.*?\]", text, re.DOTALL):
         try:
             return json.loads(m.group())
         except json.JSONDecodeError:
@@ -285,9 +287,12 @@ def topic_pub(topic: str, type: str, values: dict, rate: int = 1) -> dict:
     try:
         proc = subprocess.Popen(
             [
-                "ros2", "topic", "pub",
+                "ros2",
+                "topic",
+                "pub",
                 "--once",
-                topic, type,
+                topic,
+                type,
                 values_json,
             ],
             stdout=subprocess.PIPE,
@@ -296,7 +301,10 @@ def topic_pub(topic: str, type: str, values: dict, rate: int = 1) -> dict:
         try:
             stdout, stderr = proc.communicate(timeout=10)
             if proc.returncode != 0:
-                return {"success": False, "message": f"ros2 topic pub failed: {stderr.decode().strip()}"}
+                return {
+                    "success": False,
+                    "message": f"ros2 topic pub failed: {stderr.decode().strip()}",
+                }
             return {
                 "success": True,
                 "message": f"Published to {topic} ({type}).",
@@ -328,7 +336,10 @@ def service_list() -> dict:
     try:
         result = _run_ros2(["service", "list", "-t"])
         if result.returncode != 0:
-            return {"success": False, "message": f"ros2 service list failed: {result.stderr.strip()}"}
+            return {
+                "success": False,
+                "message": f"ros2 service list failed: {result.stderr.strip()}",
+            }
         services_list = _parse_service_list(result.stdout)
         return {
             "success": True,
@@ -362,7 +373,10 @@ def service_call(service: str, type: str, values: dict) -> dict:
     try:
         result = _run_ros2(["service", "call", service, type, values_json], timeout=15)
         if result.returncode != 0:
-            return {"success": False, "message": f"ros2 service call failed: {result.stderr.strip()}"}
+            return {
+                "success": False,
+                "message": f"ros2 service call failed: {result.stderr.strip()}",
+            }
         return {
             "success": True,
             "message": f"Called {service} ({type}).",
@@ -524,7 +538,9 @@ def launch(package: str, launch_file: str = "", args: str = "") -> dict:
 
         for _ in range(50):
             if proc.poll() is not None:
-                transition_crashed(job, f"Launch exited immediately (code {proc.returncode})", proc.returncode)
+                transition_crashed(
+                    job, f"Launch exited immediately (code {proc.returncode})", proc.returncode
+                )
                 break
             time.sleep(0.1)
         else:
@@ -643,7 +659,9 @@ def bag_record(topic: str, duration: int = 10, output: str = "") -> dict:
 
         for _ in range(50):
             if proc.poll() is not None:
-                transition_crashed(job, f"Bag record exited immediately (code {proc.returncode})", proc.returncode)
+                transition_crashed(
+                    job, f"Bag record exited immediately (code {proc.returncode})", proc.returncode
+                )
                 break
             time.sleep(0.1)
         else:
@@ -705,7 +723,9 @@ def bag_play(bag_file: str, rate: float = 1.0) -> dict:
 
         for _ in range(50):
             if proc.poll() is not None:
-                transition_crashed(job, f"Bag play exited immediately (code {proc.returncode})", proc.returncode)
+                transition_crashed(
+                    job, f"Bag play exited immediately (code {proc.returncode})", proc.returncode
+                )
                 break
             time.sleep(0.1)
         else:
@@ -738,7 +758,7 @@ def list_jobs() -> dict:
     active = []
     completed = []
 
-    for jid, job in list(_job_states.items()):
+    for _jid, job in list(_job_states.items()):
         d = job.info()
         if job.state in (RosState.RUNNING, RosState.NODE_REGISTERED, RosState.STOPPING):
             active.append(d)

@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import { API_BASE } from "../lib/api";
 
 const quickActions = [
   { title: "Discover ROS Graph", prompt: "List all ROS 2 topics, services, and nodes on the system" },
@@ -28,7 +27,7 @@ export default function LLM() {
     setSelectedProvider(savedProvider);
     setSelectedModel(savedModel);
 
-    fetch(API_BASE + "/api/llm/providers")
+    fetch("/api/llm/providers")
       .then((r) => r.json())
       .then((d) => {
         setProviders(d);
@@ -64,7 +63,7 @@ export default function LLM() {
     setChat((prev) => [...prev, { role: "user", content: prompt }]);
     setLoading(true);
     try {
-      const r = await fetch(API_BASE + "/api/llm/chat", {
+      const r = await fetch("/api/llm/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ provider: selectedProvider, model: selectedModel, prompt }),
