@@ -3,7 +3,6 @@ set windows-shell := ["powershell.exe", "-NoProfile", "-Command"]
 import 'scripts/just/fleet.just'
 
 # === Fleet-standard ===
-    powershell.exe -NoProfile -c "if (Get-Command ros2 -ErrorAction SilentlyContinue) { ros2 --version } else { try { & 'C:\Python3.11\python.exe' -c 'import rclpy; print(\"rclpy available\")' 2>&1 } catch { Write-Host 'ROS 2 not available' } }"
 bootstrap:
     uv sync
 

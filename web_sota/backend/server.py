@@ -10,10 +10,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from ros_mcp.server import ros_status, topic_list, service_list, node_list, list_jobs
+from ros_mcp.server import list_jobs, node_list, ros_status, service_list, topic_list
+from web_sota.backend.log_buffer import activity_log
 from web_sota.backend.routes.ai import router as ai_router
 from web_sota.backend.routes.logging import router as logging_router
-from web_sota.backend.log_buffer import activity_log
 
 
 @asynccontextmanager
