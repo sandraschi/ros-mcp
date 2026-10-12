@@ -1,3 +1,4 @@
+import asyncio
 import json
 import os
 import re
@@ -830,7 +831,7 @@ After completion, summarize what happened and any observations."""
         }
     except Exception as e:
         try:
-            resp = httpx.post(
+            resp = await asyncio.to_thread(httpx.post,
                 "http://127.0.0.1:11434/api/generate",
                 json={"model": "llama3.2:3b", "prompt": prompt, "stream": False},
                 timeout=120,
