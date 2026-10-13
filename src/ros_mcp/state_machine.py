@@ -1,4 +1,4 @@
-"""ROS node lifecycle state machine — adapted from mujoco-mcp's SimStateMachine.
+"""ROS node lifecycle state machine - adapted from mujoco-mcp's SimStateMachine.
 
 States: IDLE -> NODE_REGISTERED -> RUNNING -> STOPPING -> STOPPED -> CRASHED
 

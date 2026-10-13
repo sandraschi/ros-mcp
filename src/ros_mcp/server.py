@@ -798,20 +798,20 @@ async def agentic_ros_workflow(goal: str, ctx: Context) -> dict:
     """
     tools_desc = """
 Available tools (invoke with JSON):
-- ros_status() — health check, ROS version, active nodes/topics/services
-- topic_list() — list all active topics with types
-- topic_echo(topic, count, timeout) — echo messages from a topic
-- topic_pub(topic, type, values, rate) — publish a message
-- service_list() — list all active services
-- service_call(service, type, values) — call a service
-- node_list() — list all active nodes
-- param_get(node, param) — get a parameter
-- param_set(node, param, value) — set a parameter
-- launch(package, launch_file, args) — launch a ROS 2 launch file
-- stop_launch(job_id) — stop a launched process
-- bag_record(topic, duration, output) — record topics to bag
-- bag_play(bag_file, rate) — play back a bag file
-- list_jobs() — list tracked background jobs
+- ros_status() - health check, ROS version, active nodes/topics/services
+- topic_list() - list all active topics with types
+- topic_echo(topic, count, timeout) - echo messages from a topic
+- topic_pub(topic, type, values, rate) - publish a message
+- service_list() - list all active services
+- service_call(service, type, values) - call a service
+- node_list() - list all active nodes
+- param_get(node, param) - get a parameter
+- param_set(node, param, value) - set a parameter
+- launch(package, launch_file, args) - launch a ROS 2 launch file
+- stop_launch(job_id) - stop a launched process
+- bag_record(topic, duration, output) - record topics to bag
+- bag_play(bag_file, rate) - play back a bag file
+- list_jobs() - list tracked background jobs
 """
     prompt = f"""You are a robotics engineer working with ROS 2. Your goal: {goal}
 
